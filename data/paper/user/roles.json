@@ -1,0 +1,43 @@
+{
+  "$schema": "internal",
+  "version": 1,
+  "generated": "2025-10-17T00:00:00Z",
+  "roles": [
+    {
+      "id": "superAdmin",
+      "name": "超级管理员",
+      "description": "拥有系统最高权限，包含所有管理与审核能力。",
+      "privileges": ["manageSystem", "manageUsers", "manageRoles", "reviewExam", "editExam", "publishExam"]
+    },
+    {
+      "id": "systemAdmin",
+      "name": "系统管理员",
+      "description": "维护系统配置与资源，具备用户与试卷的常规管理权限。",
+      "privileges": ["manageUsers", "reviewExam", "editExam", "publishExam"]
+    },
+    {
+      "id": "teacher",
+      "name": "教师",
+      "description": "编写与更新试卷，需要审核后才能发布。",
+      "privileges": ["editExam", "submitForReview"]
+    },
+    {
+      "id": "academic",
+      "name": "教务",
+      "description": "管理教学安排与试卷调度，可发起与跟踪审核流程。",
+      "privileges": ["scheduleExam", "reviewExam", "publishExam"]
+    },
+    {
+      "id": "student",
+      "name": "学生",
+      "description": "参加考试与查看结果，无管理权限。",
+      "privileges": ["takeExam", "viewResult"]
+    },
+    {
+      "id": "assistant",
+      "name": "助理",
+      "description": "协助教师处理题目初稿与资源整理，不能最终发布。",
+      "privileges": ["editDraft", "attachResource"]
+    }
+  ]
+}

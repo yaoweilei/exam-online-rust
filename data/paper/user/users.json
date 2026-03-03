@@ -1,0 +1,139 @@
+{
+  "$schema": "internal",
+  "version": 1,
+  "generated": "2025-10-17T00:00:00Z",
+  "users": [
+    {
+      "id": "superAdmin01",
+      "displayName": "超级管理员01",
+      "roleIds": ["superAdmin"],
+      "status": "active",
+      "email": "superAdmin01@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/criminal-fill.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "superAdmin02",
+      "displayName": "超级管理员02",
+      "roleIds": ["superAdmin"],
+      "status": "active",
+      "email": "superAdmin02@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/criminal-line.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "systemAdmin01",
+      "displayName": "系统管理员01",
+      "roleIds": ["systemAdmin"],
+      "status": "active",
+      "email": "systemAdmin01@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_fang.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "systemAdmin02",
+      "displayName": "系统管理员02",
+      "roleIds": ["systemAdmin"],
+      "status": "active",
+      "email": "systemAdmin02@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_finger.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "teacher01",
+      "displayName": "教师01",
+      "roleIds": ["teacher"],
+      "status": "active",
+      "email": "teacher01@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_ghost.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "teacher02",
+      "displayName": "教师02",
+      "roleIds": ["teacher"],
+      "status": "active",
+      "email": "teacher02@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_picture.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "academic01",
+      "displayName": "教务01",
+      "roleIds": ["academic"],
+      "status": "active",
+      "email": "academic01@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_round.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "academic02",
+      "displayName": "教务02",
+      "roleIds": ["academic"],
+      "status": "active",
+      "email": "academic02@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_round_cu.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "student01",
+      "displayName": "学生01",
+      "roleIds": ["student"],
+      "status": "active",
+      "email": "student01@example.local",
+      "accessibleLevels": ["N1"],
+      "avatar": "media/icons/avator/header_round_round.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "student02",
+      "displayName": "学生02",
+      "roleIds": ["student"],
+      "status": "active",
+      "email": "student02@example.local",
+      "accessibleLevels": ["N2", "N3"],
+      "avatar": "media/icons/avator/header_taobao.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "assistant01",
+      "displayName": "助理01",
+      "roleIds": ["assistant"],
+      "status": "active",
+      "email": "assistant01@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_two.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    },
+    {
+      "id": "assistant02",
+      "displayName": "助理02",
+      "roleIds": ["assistant"],
+      "status": "active",
+      "email": "assistant02@example.local",
+      "accessibleLevels": ["*"] ,
+      "avatar": "media/icons/avator/header_worker.svg",
+      "passwordHash": "__PLACEHOLDER_HASH__",
+      "createdAt": "2025-10-17T00:00:00Z"
+    }
+  ]
+}
